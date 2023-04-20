@@ -17,7 +17,7 @@ export default defineUserConfig({
   description: "自由与希望的交界处",
   dest: "dist",
   head: [
-    ["link", { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }],
+    // ["link", { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }],
     ["meta", { name: "viewport", content: "width=device-width,initial-scale=1,user-scalable=no" }],
     // ["link", { rel: "manifest", href: "/manifest.json" }],
     //关闭referrer,防止第三方图片因防盗链无法显示问题。

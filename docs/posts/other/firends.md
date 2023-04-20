@@ -3,6 +3,7 @@ title: 朋友圈
 date: 2022-02-14 15:34:34
 description: 收集vuepress搭建的博客链接形成朋友圈
 lang: zh-CN
+image: http://cdn.boyxy.cn/images/mmexport1599122137623.jpg
 tag:
   - 其他
 category:

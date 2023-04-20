@@ -7,7 +7,7 @@ tag:
   - 博客
 category:
   - 运维
-image: https://cdn.staticaly.com/gh/AnyFork/blog-images/main/markdown/202208231513291.png
+image: http://cdn.boyxy.cn/images/mmexport1599122121198.jpg
 sidebar: 'auto'
 sticky: 1
 ---

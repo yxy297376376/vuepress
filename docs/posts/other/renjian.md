@@ -7,7 +7,9 @@ tag:
   - 杂诗
 category:
   - 生活记录
-image: http://cdn.boyxy.cn/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230420151848.jpg
+image: http://cdn.boyxy.cn/images/mmexport1599122115860.jpg
+sidebar: 'auto'
+sticky: 1
 ---
 
 我们为了什么 在这人间。

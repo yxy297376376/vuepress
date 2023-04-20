@@ -10,16 +10,16 @@ let imageArray: Array<string> = [];
 // });
 
 imageArray = [
-    'http://cdn.boyxy.cn/images/IMG_20200414_083618.jpg',
+    'http://cdn.boyxy.cn/images/mmexport1599122121198.jpg',
+    'http://cdn.boyxy.cn/images/mmexport1599122124700.jpg',
+    'http://cdn.boyxy.cn/images/mmexport1599122134751.jpg',
+    'http://cdn.boyxy.cn/images/mmexport1599122137623.jpg',
+    'http://cdn.boyxy.cn/images/IMG_20210605_141751.jpg',
     'http://cdn.boyxy.cn/images/IMG_20210102_160345.jpg',
     'http://cdn.boyxy.cn/images/IMG_20210605_145358.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20220927_113717.jpg',
     'http://cdn.boyxy.cn/images/IMG_20220929_105925.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20220930_131927.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20221202_203406.jpg',
     'http://cdn.boyxy.cn/images/mmexport1599122115860.jpg',
     'http://cdn.boyxy.cn/images/mmexport1599122118366.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122134751.jpg'
 
 ]
 
