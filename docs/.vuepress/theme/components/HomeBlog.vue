@@ -23,6 +23,8 @@ const pages = reactive({
   pageSize: 10
 })
 const blogData = computed(() => articles.value.items.slice((pages.pageNumber - 1) * pages.pageSize, pages.pageNumber * pages.pageSize))
+console.log(blogData)
+
 const getBack = (value: { page: number; pageSize: number }) => {
   const { page, pageSize } = value
   pages.pageNumber = page

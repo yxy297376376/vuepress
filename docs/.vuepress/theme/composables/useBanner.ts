@@ -68,10 +68,12 @@ export const useBanner = () => {
             /**slider动画 */
             fx = new flux.slider("#banner", {
                 autoplay: bannerOptions.isBgImagetrigger,
-                pagination: true,
+                pagination: false,
                 width: "100%",
                 height: Number(bgImageStyle.height.slice(0, -2)),
-                delay: bannerOptions.bgImageSec
+                delay: bannerOptions.bgImageSec,
+                // controls: true,
+                captions: true
             });
         })
         bannerOptions.bgImageStyle = isMobile.value ? { color: '#fff' } : bgImageStyle

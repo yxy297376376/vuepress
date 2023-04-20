@@ -17,9 +17,9 @@ export default defineUserConfig({
   description: "自由与希望的交界处",
   dest: "dist",
   head: [
-    // ["link", { rel: "shortcut icon", type: "image/x-icon", href: "/blog-docs/favicon.ico" }],
+    ["link", { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }],
     ["meta", { name: "viewport", content: "width=device-width,initial-scale=1,user-scalable=no" }],
-    // ["link", { rel: "manifest", href: "/blog-docs/manifest.json" }],
+    // ["link", { rel: "manifest", href: "/manifest.json" }],
     //关闭referrer,防止第三方图片因防盗链无法显示问题。
     ["meta", { name: "referrer", content: "never" }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -50,9 +50,7 @@ export default defineUserConfig({
     contributorsText: '贡献者',
     //信息栏展示社交信息
     socialLinks: [
-      { icon: 'GithubOutlined', link: 'https://anyFork.github.io/blog-docs/' },
-      { icon: 'GoogleCircleFilled', link: 'https://anyFork.gitee.io/blog-docs/' },
-      { icon: 'CloudOutlined', link: 'https://www.anyfork.top/' }
+      { icon: 'GithubOutlined', link: 'https://github.com/yxy297376376' },
     ],
     //友情链接
     friendLink: firendLink,

@@ -27,22 +27,22 @@ export const plugins = [
         componentsDir: path.resolve(__dirname, '../theme/components/global'),
     }),
     //docsearch插件,https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html
-    docsearchPlugin({
-        apiKey: 'e3224f6a8f05632af9c14c9767650b54',
-        indexName: 'anyfork',
-        appId: '09V7PWK61N',
-        placeholder: '搜索文档',
-        locales: {
-            '/': {
-                placeholder: '搜索文档',
-                translations: {
-                    button: {
-                        buttonText: '搜索文档',
-                    },
-                },
-            }
-        }
-    }),
+    // docsearchPlugin({
+    //     apiKey: 'e3224f6a8f05632af9c14c9767650b54',
+    //     indexName: 'anyfork',
+    //     appId: '09V7PWK61N',
+    //     placeholder: '搜索文档',
+    //     locales: {
+    //         '/': {
+    //             placeholder: '搜索文档',
+    //             translations: {
+    //                 button: {
+    //                     buttonText: '搜索文档',
+    //                 },
+    //             },
+    //         }
+    //     }
+    // }),
     //pwa插件,https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa.html#web-app-manifests
     pwaPlugin(),
     //pwa-popup弹框,https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa-popup.html
@@ -109,6 +109,7 @@ export const plugins = [
         ],
         autoShrink: true,
         floatStyle: { bottom: '100px', 'z-index': '999999' },
+        color: 'rgb(103, 204, 134)'
     }),
     //鼠标点击特效插件
     cursorEffects({
@@ -232,6 +233,21 @@ export const plugins = [
         include: true,
         // 启用代码演示
         demo: true,
+        align: true,
+        // 启用脚注
+        footnote: true,
+        // 开启标记
+        mark: true,
+        // 启用 figure
+        figure: true,
+        // 启用图片懒加载
+        imgLazyload: true,
+        // 启用图片标记
+        imgMark: true,
+        // 启用图片大小
+        imgSize: true,
+        // 开启卡片支持
+        card: true,
     }),
     //Waline评论插件,https://vuepress-theme-hope.github.io/v2/comment/zh/config/giscus.html
     commentPlugin({

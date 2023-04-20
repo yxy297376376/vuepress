@@ -1,6 +1,6 @@
 ---
 title: 工具资源网站
-date: 2022-02-12 22:07:35
+date: 2023-04-19 12:07:35
 description: 公共资源链接，工具资源网站
 tag:
   - 其他
@@ -18,14 +18,29 @@ image: https://pic.netbian.com/uploads/allimg/211120/005250-1637340770973a.jpg
 - [SCSS 在线转 CSS](https://www.sassmeister.com/): 在线 Scss 转 css 网站。
 - [Stylus 在线转 CSS](https://www.cssportal.com/stylus-to-css/): 在线 Stylus 转 css 网站。
 - [100 素材网](http://www.100sucai.com/): 各种在线素材资源，css3 动画特效，swiper 幻灯片以及各种前端特效模板。
+- [字体 素材网](https://www.fonts.net.cn/): 字体包免费下载。
+- [Lodash](https://www.lodashjs.com/): 一致性、模块化、高性能的 JavaScript 实用工具库。
+- [ahooks](https://ahooks.gitee.io/zh-CN): 一套高质量可靠的 React Hooks 库，有很多可以拿来优化性能的 hook。
+- [Braft](https://braft.margox.cn/demos/basic): React 中使用富文本编辑器。
+- [React DnD](https://react-dnd.github.io/react-dnd/about): React 拖拽移动文件 hook。
+- [网易云音乐 NodeJS 版 API](https://binaryify.github.io/NeteaseCloudMusicApi/#/): 开源的网易云音乐 API。
+- [MuiPlayer](https://muiplayer.js.org/zh/guide/mui-player-desktop-plugin.html#%E5%AE%89%E8%A3%85): 视频播放组件
+- [APlayer](https://aplayer.js.org/#/zh-Hans/): 音乐播放组件
+- [DPlayer](https://dplayer.diygod.dev/zh/guide.html#%E9%85%8D%E5%90%88%E5%85%B6%E4%BB%96-mse-%E5%BA%93%E4%BD%BF%E7%94%A8): 视频播放组件
 
-## 图片类
+## 资源类
 
 - [彼岸图网](https://pic.netbian.com/): 4k 高清美女,风景资源网,每日限量免费下载,也可以通过爬虫获取，动漫超喜欢,你值得拥有! 本站首页图片来源于此网站。
+- [WallHaven](https://wallhaven.cc/toplist?page=18): 好用的高清图片资源网站
+- [下载吧](https://music.y444.cn/#/): 免费下载 MP3 文件 lrc
 
-## CSS 特效
+## 动效库
 
 - [Flux Slider](https://www.joelambert.co.uk/flux/): Flux Slider 一款功能强大的图片 2D 或 3D 特效插件
+- [React-spring](https://www.react-spring.dev/docs/components/use-springs): React 动效库。
+- [TweenMax](http://www.tweenmax.com.cn/cdn/): 动效库。
+- [Auto Animate](https://auto-animate.formkit.com/#installation): 过渡动画库
+- [tailwindcss](https://www.tailwindcss.cn/): 是一个功能类优先的 CSS 框架，它集成了诸如 flex, pt-4, text-center 和 rotate-90 这样的的类，它们能直接在脚本标记语言中组合起来，构建出任何设计。
 
 ## 应用网站类
 
@@ -49,9 +64,34 @@ image: https://pic.netbian.com/uploads/allimg/211120/005250-1637340770973a.jpg
 - [爱客来博客](https://coder.itclan.cn/):一款综合性博客。
 - [TypeScript 中文手册](https://bosens-china.github.io/Typescript-manual/): TypeScript 中文手册
 - [CSS Tricks](https://qishaoxuan.github.io/css_tricks/): 一款前端特效及其 css 文档。
-- [vuepress-theme-hope@2.X](https://vuepress-theme-hope.github.io/v2/zh/guide/): vuepress-theme-hope主题中文官网地址。
-- [vuepress-plugin-hope](https://vuepress-theme-hope.github.io/v2/zh/config/plugins/intro.html): vuepress-plugin-hope插件地址。
-- [vuepress-theme-hope](https://mrhope.site/): vuepress-theme-home主题网站示例地址。
+- [vuepress-theme-hope@2.X](https://vuepress-theme-hope.github.io/v2/zh/guide/): vuepress-theme-hope 主题中文官网地址。
+- [vuepress-plugin-hope](https://vuepress-theme-hope.github.io/v2/zh/config/plugins/intro.html): vuepress-plugin-hope 插件地址。
+- [vuepress-theme-hope](https://mrhope.site/): vuepress-theme-home 主题网站示例地址。
+- [Jquery API 中文文档](https://jquery.cuishifeng.cn/): Jquery API 中文文档。
+- [React Swiper](https://react-id-swiper.ashernguyen.site/example/three-d-coverflow-effect): React 轮播。
+
+## 可视化图表
+
+- [d3.js](https://d3js.org/): 交互式数据可视化。
+- [DataV](http://datav.jiaminghi.com/): Vue 大屏数据展示组件库
+- [Echarts](https://echarts.apache.org/zh/index.html): Echarts 国内镜像。
+- [bizCharts](https://bizcharts.net/): Echarts 国内镜像。
+- [G6 Grapin](https://g6.antv.antgroup.com/zh/examples/tool/tooltip#tooltipPlugin): 散点关系图。
+- [3D Graph](https://observablehq.com/collection/@d3/d3-force): 3D 散点关系图。
+
+## UI 库
+
+- [Taro UI](https://taro-ui.jd.com/#/): 一套基于 Taro 框架开发的多端 UI 组件库。
+- [Antd ProComponents UI](https://procomponents.ant.design/): Antd Pro 组件库。
+- [chakra UI](https://chakra-ui.com/): Create accessible React apps with speed。
+- [BaseTable](https://autodesk.github.io/react-base-table/): React Table 组件，兼容大数据和高性能，扩展性比较强。
+- [TD Design](https://tdesign.tencent.com/): 腾讯开发的组件库。
+- [Ant Design](https://ant-design.antgroup.com/index-cn): React 开发者最常用的组件库。
+- [Fusion](https://fusion.design/pc/component/): 阿里巴巴开发的组件库。
+- [React Suite](https://rsuitejs.com/zh/): 一套 React 的 UI 组件库。
+- [polaris](https://polaris.shopify.com/): 交互很丝滑的一套组件库。
+- [Jquery Easy UI](https://www.jeasyui.net/): 帮助 web 开发者更轻松的打造出功能丰富并且美观的 UI 界面，其中包含原生，vue，react。
+- [Material UI](https://taro-ui.jd.com/#/): Material UI is a library of React UI components that implements Google's Material Design.
 
 ## 系统类
 
@@ -61,22 +101,27 @@ image: https://pic.netbian.com/uploads/allimg/211120/005250-1637340770973a.jpg
 - [vue-netx-admin](https://lyt-top.gitee.io/vue-next-admin-preview/#/login): 一款基于`Vue3`和`ant-design-vue 3` 的后台管理系统。
 - [ant-design-pro](https://preview.pro.antdv.com/dashboard/workplace): 一款基于`Vue3`和`ant-design-vue 3` 的后台管理系统。
 - [admin-pro](https://admin.makeit.vip/start): 一款基于`Vue3`和`ant-design-vue 3` 的后台管理系统。
+- [umi-js](https://v3.umijs.org/zh-CN): 插件化的企业级前端应用框架。
 
 ## GitHub 仓库
 
 - [TypeScript 中文手册](https://github.com/bosens-China/Typescript-manual): TypeScript 中文手册仓库
 
+## 插件集
+
+- [vsCode 插件集](https://juejin.cn/post/6844903507225477127): vscode 前端插件推荐
+
 ## 优秀博客类
 
 此模块收集了一些优秀的博主链接，原创文章多，涉及范围广，可以相互借鉴学习。
 
-::: cardList 3
+<!-- ::: cardList 3 -->
 
-```yaml
+<!-- ```yaml
 - name: 兮动人
   avatar: https://avatar.csdnimg.cn/F/7/6/3_qq_41684621_1612151476.jpg
   desc: 世间味趣亦如此，万物且去轮浮生.
   link: https://xdr630.blog.csdn.net/?type=blog
   bgColor: 'rgb(165 216 243)'
   textColor: '#6854A1'
-```
+``` -->

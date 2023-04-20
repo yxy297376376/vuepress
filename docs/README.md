@@ -20,7 +20,7 @@ bgImageStyle: { height: '550px', color: '#fff' }
 #是否展示箭头
 showArrow: true
 #个人摘要
-summary: 加油,为更美好的明天而战!
+summary: 成功的定义 是锦旗还是老中医
 #兴趣爱好
 hobby:
   - 看小说
