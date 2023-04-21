@@ -22,6 +22,8 @@ sticky: 1
 
 :::
 
+![VuePress Hope 图标](http://cdn.boyxy.cn/images/mmexport1599122137623.jpg 'VuePress Hope 图标')
+
 <div align="center">
     乌云从天边蔓延 <br/>
     蜷着咸咸的雨<br/>

@@ -14,6 +14,39 @@ category:
 
 <!-- more -->
 
+@slidestart blood
+
+<!-- slide1 -->
+
+## Slide 1
+
+A paragraph with some text and a [link](https://hakim.se).
+![VuePress Hope 图标](http://cdn.boyxy.cn/images/mmexport1599122137623.jpg 'VuePress Hope 图标')
+
+---
+
+<!-- slide2 -->
+<section data-background-color="aquamarine">
+1
+</section>
+<section data-background-color="aquamarine">
+1
+</section>
+<section data-background-color="aquamarine">
+1
+</section>
+
+---
+
+<!-- slide3 -->
+
+<div style="display:flex;align-items:center;">
+  <video style="width:500px;height:300px;" data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+  <h3 style="margin-left:20px">Something </h3>
+</div>
+
+@slideend
+
 ### 朋友圈集锦
 
 - 志合者，不以山海为远；道乖者，不以咫尺为近。——晋·葛洪

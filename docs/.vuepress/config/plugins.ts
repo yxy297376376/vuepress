@@ -66,8 +66,8 @@ export const plugins = [
     // }),
     // siteMap站点地图插件，https://vuepress-theme-hope.github.io/v2/sitemap/zh/config.html
     sitemapPlugin({
-        hostname: 'https://anyfork.github.io/blog-docs/',
-        extraUrls: ['https://anyfork.gitee.io/blog-docs/']
+        hostname: 'http://www.boyxy.cn/',
+        extraUrls: ['http://www.boyxy.cn/']
     }),
     //代码复制插件，https://vuepress-theme-hope.github.io/v2/copy-code/zh/
     copyCodePlugin({
@@ -88,6 +88,19 @@ export const plugins = [
     //音乐播放器插件。
     bgmMusicPlayer({
         audios: [
+
+            {
+                name: '且听风吟',
+                artist: '朴树',
+                url: 'http://cdn.boyxy.cn/songs/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-%E6%9C%B4%E6%A0%91.mp3',
+                cover: 'https://p1.music.126.net/xuW0eAX30At9yn8vp0Z3AA==/83562883723684.jpg'
+            },
+            {
+                name: '蓝莲花',
+                artist: '许巍',
+                url: 'http://cdn.boyxy.cn/songs/%E8%93%9D%E8%8E%B2%E8%8A%B1-%E8%AE%B8%E5%B7%8D.mp3',
+                cover: 'https://gimg3.baidu.com/yule/src=http%3A%2F%2Fgips0.baidu.com%2Fit%2Fu%3D985532286%2C1600523813%26fm%3D3007%26app%3D3007%26f%3DJPEG%3Fw%3D500%26h%3D500&refer=http%3A%2F%2Fwww.baidu.com&app=2019&size=w931&n=0&g=0n&q=75&fmt=auto?sec=1682182800&t=009b5d6e48f222bf007d993e49d2db08'
+            },
             {
                 name: '世界末日',
                 artist: '周杰伦',
@@ -95,17 +108,24 @@ export const plugins = [
                 cover: '/music/canon/canon.jpg'
             },
             {
-                name: '且听风吟',
-                artist: '朴树',
-                url: 'http://cdn.boyxy.cn/songs/%E4%B8%94%E5%90%AC%E9%A3%8E%E5%90%9F-%E6%9C%B4%E6%A0%91.mp3',
-                cover: '/music/wind/wind.jpg'
+                name: '一生有你',
+                artist: '水木年华',
+                url: 'http://cdn.boyxy.cn/songs/%E4%B8%80%E7%94%9F%E6%9C%89%E4%BD%A0-%E6%B0%B4%E6%9C%A8%E5%B9%B4%E5%8D%8E.mp3',
+                cover: 'https://p1.ifengimg.com/a/2017_40/6d89e7f6c0d6154_size131_w650_h648.jpgg'
             },
             {
-                name: '蓝莲花',
-                artist: '许巍',
-                url: 'http://cdn.boyxy.cn/songs/%E8%93%9D%E8%8E%B2%E8%8A%B1-%E8%AE%B8%E5%B7%8D.mp3',
-                cover: '/music/night/night.jpg'
-            }
+                name: '无条件',
+                artist: '陈奕迅',
+                url: 'http://cdn.boyxy.cn/songs/%E6%97%A0%E6%9D%A1%E4%BB%B6-%E9%99%88%E5%A5%95%E8%BF%85.mp3',
+                cover: '/music/canon/canon.jpg'
+            },
+            {
+                name: 'See You again',
+                artist: '',
+                url: 'http://cdn.boyxy.cn/songs/see%20you%20again.mp3',
+                cover: '/music/canon/canon.jpg'
+            },
+
         ],
         autoShrink: true,
         floatStyle: { bottom: '100px', 'z-index': '999999' },
@@ -248,6 +268,8 @@ export const plugins = [
         imgSize: true,
         // 开启卡片支持
         card: true,
+        // 启用幻灯片
+        presentation: true
     }),
     //Waline评论插件,https://vuepress-theme-hope.github.io/v2/comment/zh/config/giscus.html
     commentPlugin({
