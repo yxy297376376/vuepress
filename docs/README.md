@@ -1,11 +1,11 @@
 ---
 home: true
 #主标题文本，为数组时会使用打印机打印功能，非数组静态文本
-# heroText:
-#   - 学而时习之，不亦说乎?^1000
-#   - 学习要有三心，一信心，二决心，三恒心
+heroText:
+  - 突然落下的夜晚
+  - 灯火已隔世般阑珊。
 #副标题
-# tagline: 不积跬步,无以至千里.不积小流,无以成江海.
+tagline: 迎接被风吹过的日子.
 #背景图片，可以为数组,可以为远程背景图片，图片资源网：https://pic.netbian.com/4kmeinv/
 bgImage:
   - 'http://cdn.boyxy.cn/images/IMG_20200414_083618.jpg'
