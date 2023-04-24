@@ -31,7 +31,8 @@ export default defineUserConfig({
     author: "杨舒",
     authorAvatar: "/img/logo.jpg",
     //仓库地址
-    repo: '',
+    repo: 'https://github.com/yxy297376376/vuepress',
+    repoLabel: 'Git',
     //如果你的文档不在仓库的根部
     docsDir: 'docs',
     //是否开启编辑链接

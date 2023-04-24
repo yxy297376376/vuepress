@@ -8,7 +8,7 @@ heroText:
 tagline: 迎接被风吹过的日子.
 #背景图片，可以为数组,可以为远程背景图片，图片资源网：https://pic.netbian.com/4kmeinv/
 bgImage:
-  - 'http://cdn.boyxy.cn/images/IMG_20200414_083618.jpg'
+  - 'http://cdn.boyxy.cn/images/mmexport1599122121198.jpg'
 #背景图片切换时间间隔：默认4秒，单位毫秒
 bgImageSec: 10000
 #背景图片是否动态切换,默认true，false每次刷新会更换图片
