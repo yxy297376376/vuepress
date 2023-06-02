@@ -137,9 +137,16 @@ export const plugins = [
         shape: 'star'
     }),
     //动态title特效插件
-    dynamicTitle(),
+    // @ts-ignore
+    dynamicTitle({
+        showText: '杨舒的博客',
+        hideText: '自由和希望的交界处'
+    }),
     //看板娘
-    // kanBanNiang(),
+    // kanBanNiang({
+    //     width: 300,
+    //     height: 500
+    // }),
     //彩带
     ribbon({
         size: 120, // 默认数据
@@ -242,6 +249,16 @@ export const plugins = [
                 layout: "Timeline",
                 frontmatter: () => ({ title: "Timeline", sidebar: false }),
             },
+            {
+                key: "See",
+                // only article with date should be added to timeline
+                filter: (page) => page.frontmatter.date ? true : false,
+                // sort pages with time
+                sorter: (pageA, pageB) => new Date(pageB.frontmatter.date as string).getTime() - new Date(pageA.frontmatter.date as string).getTime(),
+                path: "/see/",
+                layout: "See",
+                frontmatter: () => ({ title: "asdsa", sidebar: false }),
+            },
         ],
         hotReload: true,
     }),
@@ -269,7 +286,8 @@ export const plugins = [
         // 开启卡片支持
         card: true,
         // 启用幻灯片
-        presentation: true
+        // presentation: true
+        codetabs: true
     }),
     //Waline评论插件,https://vuepress-theme-hope.github.io/v2/comment/zh/config/giscus.html
     commentPlugin({

@@ -24,6 +24,11 @@ export const navbar: (NavbarItems | NavbarGroup | string)[] = [
         link: '/timeline/',
         icon: 'ClockCircleTwotone'
     },
+    // {
+    //     text: 'asdas',
+    //     link: '/see/',
+    //     icon: 'ClockCircleTwotone'
+    // },
 
     // 控制元素何时被激活,最大深度2
     // {

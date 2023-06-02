@@ -10,17 +10,13 @@ let imageArray: Array<string> = [];
 // });
 
 imageArray = [
-    'http://cdn.boyxy.cn/images/mmexport1599122121198.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122124700.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122134751.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122137623.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20210605_141751.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20210102_160345.jpg',
-    'http://cdn.boyxy.cn/images/IMG_20210605_145358.jpg',
+    'http://cdn.boyxy.cn/images/wallhaven-exez6k.jpg',
+    'http://cdn.boyxy.cn/images/wallhaven-zyomgv.jpg',
+    'http://cdn.boyxy.cn/images/IMG_20210605_151253.jpg',
+    'http://cdn.boyxy.cn/images/IMG_20210605_151503.jpg',
+    "http://cdn.boyxy.cn/images/IMG_20230402_164745.jpg",
+    "http://cdn.boyxy.cn/images/IMG_20230402_172812.jpg",
     'http://cdn.boyxy.cn/images/IMG_20220929_105925.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122115860.jpg',
-    'http://cdn.boyxy.cn/images/mmexport1599122118366.jpg',
-
 ]
 
 import { usePageFrontmatter, PageFrontmatterRef, withBase } from "@vuepress/client";

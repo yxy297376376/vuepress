@@ -27,9 +27,9 @@ export default defineUserConfig({
     ['script', { language: 'javascript', type: 'text/javascript', src: '/js/flux.min.js' }],
   ],
   theme: AnyForkTheme({
-    logo: "/img/logo.jpg",
+    logo: "http://cdn.boyxy.cn/images/avatar.jpg",
     author: "杨舒",
-    authorAvatar: "/img/logo.jpg",
+    authorAvatar: "http://cdn.boyxy.cn/images/avatar.jpg",
     //仓库地址
     repo: 'https://github.com/yxy297376376/vuepress',
     repoLabel: 'Git',

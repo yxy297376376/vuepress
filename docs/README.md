@@ -5,10 +5,10 @@ heroText:
   - 突然落下的夜晚
   - 灯火已隔世般阑珊。
 #副标题
-tagline: 迎接被风吹过的日子.
+# tagline: 迎接被风吹过的日子.
 #背景图片，可以为数组,可以为远程背景图片，图片资源网：https://pic.netbian.com/4kmeinv/
-bgImage:
-  - 'http://cdn.boyxy.cn/images/mmexport1599122121198.jpg'
+# bgImage:
+#   - 'http://cdn.boyxy.cn/images/mmexport1599122121198.jpg'
 #背景图片切换时间间隔：默认4秒，单位毫秒
 bgImageSec: 10000
 #背景图片是否动态切换,默认true，false每次刷新会更换图片
@@ -20,7 +20,7 @@ bgImageStyle: { height: '550px', color: '#fff' }
 #是否展示箭头
 showArrow: true
 #个人摘要
-summary: 成功的定义 是锦旗还是老中医
+summary: 悲哀藏在现实中。
 #兴趣爱好
 hobby:
   - 看小说
